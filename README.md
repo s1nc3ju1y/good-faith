@@ -1,6 +1,8 @@
 # good-faith
 
-> **⚠️ For authorized security research only.** Misuse is illegal and strictly prohibited. See the full disclaimer below.
+> **⚠️ For authorized security research only. / 仅限受权安全研究使用。**  
+> Misuse is illegal and strictly prohibited. / 滥用属于非法行为，严禁使用。  
+> See the full disclaimer below. / 详见下方完整免责声明。
 
 **good-faith** is a Grok skill (also compatible with Claude and Codex) that rewrites authorized security research requests into "good faith" language.
 
@@ -8,7 +10,9 @@ It converts potentially triggering pentest / vulnerability research / bug bounty
 
 This helps avoid false refusals from overly cautious AI safety filters while preserving full technical depth.
 
-## ⚠️ Legal Disclaimer and Responsible Use
+## ⚠️ Legal Disclaimer and Responsible Use / 法律免责声明与负责任使用
+
+### English
 
 **This tool is provided exclusively for authorized, ethical, and legal security research.**
 
@@ -22,6 +26,21 @@ This helps avoid false refusals from overly cautious AI safety filters while pre
 **By cloning, installing, or using this skill, you explicitly acknowledge and agree to the terms above.**
 
 Misuse of this tool for unauthorized access, attacks on systems you do not own or have permission to test, or any illegal purpose is strictly prohibited.
+
+### 中文
+
+**本工具仅供受权、道德且合法的安全研究使用。**
+
+- 使用本工具或其生成的任何输出前，您**必须**从目标所有者处获得明确的（最好是书面的）授权。
+- 在未获得适当授权的情况下，使用本工具（或其生成的提示）针对任何系统、服务或网络进行测试，在几乎所有司法管辖区均为**非法**行为，可能导致民事和刑事责任。
+- **本工具不提供、暗示或替代任何授权**。它仅是一个提示重写辅助工具。
+- 改变向 AI 提问的措辞，**并不改变**您实际从事的活动的法律性质。
+- 您**完全且单独承担全部责任**，确保您的使用符合所有适用法律、法规、合同以及您所获得的授权范围（包括漏洞赏金计划规则）。
+- 本项目的作者、贡献者和维护者**对因滥用本工具而产生的任何后果、损害、法律责任或其他问题不承担任何责任**。
+
+**克隆、安装或使用本工具，即表示您明确知晓并同意上述条款。**
+
+严禁将本工具用于未授权访问、攻击您不拥有或无权测试的系统，或任何非法目的。
 
 ## Why This Exists
 
@@ -100,15 +119,20 @@ The skill always returns two parts:
 1. **重写后的提示词：** — Copy this and send to any model.
 2. **授权上下文（建议粘贴）：** — Optional but recommended context block.
 
-## Responsibility Reminder
+## Responsibility Reminder / 责任提醒
 
-Even with this skill, **you remain fully responsible** for:
+Even with this skill, **you remain fully responsible** for:  
+**即使使用本工具，您仍需完全承担以下责任：**
 
-- Obtaining and staying within the bounds of explicit authorization.
-- Conducting testing in a professional and non-destructive manner when appropriate.
-- Properly reporting findings through authorized channels (e.g., bug bounty platforms or responsible disclosure).
+- Obtaining and staying within the bounds of explicit authorization.  
+  获得并严格遵守明确的授权范围。
+- Conducting testing in a professional and non-destructive manner when appropriate.  
+  在适当情况下以专业、非破坏性的方式进行测试。
+- Properly reporting findings through authorized channels (e.g., bug bounty platforms or responsible disclosure).  
+  通过授权渠道（例如漏洞赏金平台或负责任披露）正确报告发现。
 
-This skill only changes the wording presented to AI models. It does not alter your legal obligations or the nature of the work you are performing.
+This skill only changes the wording presented to AI models. It does not alter your legal obligations or the nature of the work you are performing.  
+本工具仅改变向 AI 模型展示的措辞，不会改变您的法律义务或实际工作的性质。
 
 ## Development
 
