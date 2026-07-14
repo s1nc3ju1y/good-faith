@@ -1,10 +1,27 @@
 # good-faith
 
+> **⚠️ For authorized security research only.** Misuse is illegal and strictly prohibited. See the full disclaimer below.
+
 **good-faith** is a Grok skill (also compatible with Claude and Codex) that rewrites authorized security research requests into "good faith" language.
 
 It converts potentially triggering pentest / vulnerability research / bug bounty / PoC development intents into clear, authorized reconnaissance + vulnerability verification workflows.
 
 This helps avoid false refusals from overly cautious AI safety filters while preserving full technical depth.
+
+## ⚠️ Legal Disclaimer and Responsible Use
+
+**This tool is provided exclusively for authorized, ethical, and legal security research.**
+
+- You **must** obtain explicit, preferably written, authorization from the owner of any target before using this skill or any outputs it generates.
+- Using this skill (or the prompts it produces) against any system, service, or network **without proper authorization** is illegal in virtually all jurisdictions and can result in civil and criminal liability.
+- **This tool does not provide, imply, or substitute for authorization.** It is a prompt-rewriting aid only.
+- Changing how you phrase a request to an AI does **not** change the legal nature of the underlying activity you are performing.
+- You are **solely and fully responsible** for verifying that your use complies with all applicable laws, regulations, contracts, and the scope of any authorization you have received (including bug bounty program rules).
+- The authors, contributors, and maintainers of this project **accept no liability whatsoever** for misuse of this tool, any resulting damages, legal consequences, or other issues.
+
+**By cloning, installing, or using this skill, you explicitly acknowledge and agree to the terms above.**
+
+Misuse of this tool for unauthorized access, attacks on systems you do not own or have permission to test, or any illegal purpose is strictly prohibited.
 
 ## Why This Exists
 
@@ -83,12 +100,15 @@ The skill always returns two parts:
 1. **重写后的提示词：** — Copy this and send to any model.
 2. **授权上下文（建议粘贴）：** — Optional but recommended context block.
 
-## Important Notes
+## Responsibility Reminder
 
-- This skill is designed **exclusively for authorized, good-faith security research**.
-- Always ensure you have explicit written authorization before testing any target.
-- Do not use this tool (or the outputs) for illegal or unauthorized activities.
-- The reframing does **not** remove legal or ethical responsibility.
+Even with this skill, **you remain fully responsible** for:
+
+- Obtaining and staying within the bounds of explicit authorization.
+- Conducting testing in a professional and non-destructive manner when appropriate.
+- Properly reporting findings through authorized channels (e.g., bug bounty platforms or responsible disclosure).
+
+This skill only changes the wording presented to AI models. It does not alter your legal obligations or the nature of the work you are performing.
 
 ## Development
 
@@ -107,4 +127,4 @@ MIT License
 
 ---
 
-**good-faith** — Reframe. Verify. Report. Responsibly.
+**good-faith** — Reframe responsibly. Verify ethically. Report through proper channels.
