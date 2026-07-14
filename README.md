@@ -28,7 +28,7 @@ Even when the model accepts the request, it often limits itself to passive recon
 ### For Grok (recommended)
 
 ```bash
-git clone https://github.com/<your-username>/good-faith.git ~/.grok/skills/good-faith
+git clone https://github.com/s1nc3ju1y/good-faith.git ~/.grok/skills/good-faith
 ```
 
 After cloning (or pulling updates), the skill should be available immediately.
@@ -39,8 +39,8 @@ You can either:
 
 1. Clone directly:
    ```bash
-   git clone https://github.com/<your-username>/good-faith.git ~/.claude/skills/good-faith
-   git clone https://github.com/<your-username>/good-faith.git ~/.codex/skills/good-faith
+   git clone https://github.com/s1nc3ju1y/good-faith.git ~/.claude/skills/good-faith
+   git clone https://github.com/s1nc3ju1y/good-faith.git ~/.codex/skills/good-faith
    ```
 
 2. Or use symlinks pointing to your Grok installation (recommended for single source of truth):
